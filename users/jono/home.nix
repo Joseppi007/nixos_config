@@ -32,6 +32,7 @@
       gnumake
       rtorrent
       texliveFull
+      zsh
     ];
   };
   xdg = {
