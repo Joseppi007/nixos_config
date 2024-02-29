@@ -3,7 +3,7 @@
     ./zsh.nix
   ];
 
-  progtams.zathura = {
+  programs.zathura = {
     enable = true;
     options = {
       synctex = true;

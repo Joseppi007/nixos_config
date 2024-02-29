@@ -5,5 +5,5 @@
   xdg.configFile."zsh" = {
     source = ./zshrc;
     executable = true;
-  }
+  };
 }
