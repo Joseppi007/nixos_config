@@ -96,3 +96,22 @@ client.urgent		$urgentred	$urgentred	$white	$yellowbrown	$yellowbrown
 bindsym $mod+d exec rofi -modi drun -show drun
 output eDP-1 resolution 1920x1200 position 0,0
 exec swayidle -w before-sleep 'echo "There is not a lock at the moment."'
+
+bar {
+    font pango: Noto Sans Regular 12
+    status_command i3blocks -c i3blocks.conf
+    position top
+    i3bar_command i3bar --transparency
+    tray_output primary
+    tray_padding 0
+    strip_workspace_numbers yes
+    colors {
+      separator			$purple
+      background		$darkgrey
+      statusline		$white
+      focused_workspace		$mediumgrey	$grey		$darkgrey
+      active_workspace		$lightblue	$mediumgrey	$darkgrey
+      inactive_workspace	$darkgrey	$darkgrey	$grey
+      urgent_workspace		$urgentred	$urgentred	$white
+    }
+}
