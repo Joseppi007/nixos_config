@@ -58,6 +58,7 @@
       foot
       python3
       firefox
+      popcorntime
     ];
   };
 
