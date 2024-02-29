@@ -8,6 +8,7 @@
     wl-clipboard
     slurp
     grim
+    acpi
   ];
   home.sessionVariables = {
     QT_WAYLAND_DISABLE_WINDOWDECORATIONS = "1";
