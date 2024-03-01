@@ -49,6 +49,8 @@
     xkbVariant = "";
   };
 
+  programs.zsh.enable = true;
+
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.jono = {
     isNormalUser = true;
@@ -60,6 +62,7 @@
       firefox
       popcorntime
     ];
+    shell = pkgs.zsh;
   };
 
   # Enable automatic login for the user.

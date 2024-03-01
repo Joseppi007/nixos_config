@@ -9,7 +9,6 @@
     stateVersion = "23.11";
     sessionVariables = {
       EDITOR = "vim";
-      SHELL = "zsh";
     };
     sessionPath = [
       "$HOME/.local/bin"
